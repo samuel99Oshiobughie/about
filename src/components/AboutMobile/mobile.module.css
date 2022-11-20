@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+
+.intro {
+    position: absolute;
+    width: 302px;
+    height: 210px;
+    left: 24px;
+    top: 209px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #303030;
+}
+
+
+
+
+
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px)  { 
+  
+    .header {
+        width: 149px;
+        height: 80px;
+        margin-left: 121px;
+        margin-bottom: 0px;
+        margin-top: 120px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 80px;
+        color: #303030;
+    }
+
+    .intro {
+        /* position: absolute; */
+        width: 302px;
+        height: 210px;
+        margin-left: 24px;
+        margin-top: 0px;
+        /* left: 24px; */
+        /* top: 209px; */
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #303030;
+    }
+
+    .about {
+        position: absolute;
+        width: 180px;
+        height: 141px;
+        left: 190px;
+        top: 302px;
+    }
+
+    .secondHeader {
+        width: 390px;
+        height: 67px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-left: 0.5rem;
+        margin-top: 17rem;
+        margin-bottom: 0px;
+    }
+
+    .secondIntro {
+        width: 341px;
+        height: 196px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #303030;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-left: 1.5rem;
+    }
+
+    .startedButton {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FEFEFE;
+        width: 342px;
+        height: 56px;
+        background: #1D1DD8;
+        border-radius: 4px solid #1D1DD8;
+        margin-left: 1rem;
+    }
+
+    .storyHeader {
+        width: 85px;
+        height: 24px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        margin-left: 9rem;
+        margin-top: 5rem;
+    }
+
+    .storyIntro {
+        width: 341px;
+        height: 726px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 33px;
+        text-align: center;
+        color: #000000;
+        margin-left: 1rem;
+    }
+
+    .screen {
+        width: 300.03px;
+        height: 192px;
+        margin-left: 2rem;
+    }
+
+    .principleHeader {
+        width: 125px;
+        height: 24px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        margin-left: 7rem;
+        margin-top: 5rem;
+    }
+
+    .textWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1 {
+        width: 242px;
+        height: 125px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #0A0A0A;
+    }
+
+    .text2 {
+        width: 245px;
+        height: 100px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #0A0A0A;
+    }
+
+    .text3 {
+        width: 249px;
+        height: 100px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #0A0A0A;
+    }
+
+    .journey {
+        width: 179px;
+        height: 24px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        margin-top: 5rem;
+        margin-left: 6rem;
+    }
+
+    .journeyWrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .box1 {
+        width: 83px;
+        height: 76px;
+        font-family: 'Rubik';
+        font-style: normal;
+        color: #303030;
+    }
+
+
+    .journeyFigure1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .journeyWord1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+
+    .box2 {
+        width: 83px;
+        height: 76px;
+        font-family: 'Rubik';
+        font-style: normal;
+        color: #303030;
+    }
+
+
+    .journeyFigure2 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .journeyWord2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .box3 {
+        width: 84px;
+        height: 76px;
+        font-family: 'Rubik';
+        font-style: normal;
+        color: #303030;
+    }
+
+
+    .journeyFigure3 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .journeyWord3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .principles {
+        width: 125px;
+        height: 24px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        margin-top: 5rem;
+        margin-left: 7rem;
+    }
+
+    .principlesWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 342px;
+        height: 132px;
+        background: #1D1DD8;
+        border-radius: 4px;
+        margin-left: 1rem;
+    }
+
+    .principle1 {
+        width: 107.62px;
+        height: 23.88px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .principle2 {
+        width: 59.93px;
+        height: 24px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .principle3 {
+        width: 59.93px;
+        height: 24px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .principle4 {
+        width: 53.29px;
+        height: 24px;
+        margin-left: 5.5rem;
+    }
+
+    .principle5 {
+        width: 102px;
+        height: 24px;
+        margin-left: 2rem;
+    }
+   
+ }
+
+ /* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px)  { 
+
+    .header {
+        margin-left: 170px;
+    }
+
+    .intro {
+        margin-left: 75px;
+    }
+
+    .about {
+        left: 240px;
+    }
+
+    .secondHeader {
+        margin-left: 2rem;
+    }
+
+    .secondIntro {
+        margin-left: 4rem;
+    }
+
+    .startedButton {
+        margin-left: 4.5rem;
+    }
+
+    .storyHeader {
+        margin-left: 12rem;
+    }
+
+    .storyIntro {
+        margin-left: 4rem;
+    }
+
+    .screen {
+        width: 370px;
+        height: 220px;
+        margin-left: 3.5rem;
+    }
+
+    .principleHeader {
+        margin-left: 11rem;
+    }
+
+    .journey {
+        margin-left: 9rem;
+    }
+
+    .principles {
+        margin-left: 12rem;
+    }
+
+    .principlesWrapper {
+        width: 430px;
+        margin-left: 1.5rem;
+    }
+
+    .principle2 {
+        margin-left: 4rem;
+    }
+
+    .principle3 {
+        margin-left: 4rem;
+    }
+
+    .principle5 {
+        margin-left: 5rem;
+    }
+ }
